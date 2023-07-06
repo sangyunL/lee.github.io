@@ -1,0 +1,185 @@
+# Site
+repository: sproogen/resume-theme
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: SangYun Lee
+title: Future AI Engineer
+
+# email_title: Email (Email title override)
+# phone: Your phone number (optional)
+
+# phone_title: Phone (Phone title override)
+email: socio1425bsh@daum.net
+website: https://sangyunL.github.io
+# website_title: Web (Website title override)
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+
+instagram_username: _lsangyun
+github_username: sangyunL
+#linkedin_username: jekyll
+#googlescholar_username: D847cGsAAAAJ
+
+# Additional icon links
+additional_links:
+- title: Link name
+  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+  url: Link url (eg. https://google.com)
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me (Use this to override about section title)
+about_profile_image: images/ME.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Hello! I'm sangyun Lee who lives in Gwangju. I'm a master student at GIST, majoring in artificial intelligence. My interests of study are digital speech processing.
+  I'm enterprising, goal-oriented, and sociable person. Overall, I like and enjoy ball sports. Also, I like to be exposed to new environments.
+  This blog is my history, below is a brief description of my career.
+
+
+content:
+  # - title: Projects # Title for the section
+  #   layout: list # Type of content section (list/text)
+  #   content:
+  #     - layout: top-middle
+  #       title: 
+  #       link: 
+  #       # link_text: Project Website
+  #       additional_links:
+  #         - title: 
+  #           icon: 
+  #           url: 
+  #         # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+  #         #   icon: fab fa-github
+  #         #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+  #       quote: >
+  #         My first toy project.
+  #       description: | # this will include new lines to allow paragraphs
+  #         ..
+          
+  - title: Award and honors
+    layout: list
+    content:
+      - layout: top-middle
+        title: 
+        caption: (2021) Mirae Asset's Korean scholarship, Korea
+
+      - layout: top-middle
+        title: 
+        caption: (2022) Accompanying scholarship student, Chonnam National University
+
+      - layout: top-middle
+        title: 
+        caption: (2022) Korea Huawei scholarship student at KOSAF
+
+      - layout: top-middle
+        title: 
+        caption: (2022) Jeollanam-do scholarship student, Korea
+        
+      - layout: top-middle
+        title: 
+        caption: (2023) Academic Excellence Award(summa cum laude), Chonnam National University
+
+  - title: Experience
+    layout: list
+    content:
+      - layout: top-middle
+        title: Social Leader College Student Activities at KOSAF
+        caption: 2020 - 2021
+        link: https://portal.kosaf.go.kr/CO/jspAction.do
+
+      - layout: top-middle
+        title: Data Science Program, North Carolina State University, USA
+        caption: January 2022
+        link: https://datascienceacademy.ncsu.edu/
+
+      - layout: top-middle
+        title: 3D restoration in Project(capstone)&NLP using EMR data(capstone) 
+        caption: March 2022 ~ July 2022
+
+      - layout: top-middle
+        title: Data Science Program, North Carolina State University, USA
+        caption: January 2022
+        link: https://datascienceacademy.ncsu.edu/
+  
+      - layout: top-middle
+        title: Undergraduate research student in Bio and Medical Informatics Lab, Chonnam National University
+        caption: October 2020 - December 2022 
+        link: http://bmil.jnu.ac.kr/
+  
+      - layout: top-middle
+        title: Master research student in Speech and Audio Processing Lab, Gwangju Institute of Science and Technology
+        caption: January 2023 - present 
+        link: https://sapl.gist.ac.kr/
+ 
+
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Chonnam National University 
+        caption: 2017 - 2023
+        sub_title: AI convergence major (Bachelor's degree)
+        quote: >
+          Chonnam National University was established in 1952 as a national university and hub of Korea in Gwangju Metropolitan City.
+        description: |  #new lines to allow paragraphs
+          
+      - layout: left
+        title: Gwangju Institute of Science and Technology (GIST)
+        caption: 2023 - 2025
+        sub_title: AI graduate school
+        quote: >
+          Gwangju Institute of Science and Technology contributes to the development of national science and technology by fostering high-quality science and technology talents.
+        description: |  #new lines to allow paragraphs
+
+  - title: A Little More About Me
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
+      - Gaming
+      - Sports (All sports using ball)
+      - Beer
+  
+  
+           
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
+# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
+
+exclude : [
+  "Gemfile",
+  "Gemfile.lock",
+  "node_modules",
+  "vendor/bundle/",
+  "vendor/cache/",
+  "vendor/gems/",
+  "vendor/ruby/",
+  "lib/",
+  "scripts/",
+  "docker-compose.yml",
+  ]
